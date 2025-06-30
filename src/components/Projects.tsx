@@ -32,7 +32,7 @@ const Projects = () => {
       image: "src/Images/port.png",
       technologies: ["React", "Tailwind CSS", "Framer Motion"],
       github: "https://github.com/splakash/My-Portfolio",
-      live: "#"
+      live: "https://my-portfolio-rho-two-59.vercel.app/"
     },
     {
       title: "Social Media API",
