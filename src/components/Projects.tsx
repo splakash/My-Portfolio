@@ -31,7 +31,7 @@ const Projects = () => {
       description: "A modern, responsive portfolio website showcasing projects and skills. Built with performance and accessibility in mind.",
       image: "src/Images/port.png",
       technologies: ["React", "Tailwind CSS", "Framer Motion"],
-      github: "#",
+      github: "https://github.com/splakash/My-Portfolio",
       live: "#"
     },
     {
