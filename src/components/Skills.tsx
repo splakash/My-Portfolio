@@ -13,7 +13,8 @@ const Skills = () => {
     {
       title: "Backend",
       skills: [
-        { name: "Spring Boot", level: 50 },
+        { name: "Spring Boot", level: 60 },
+        { name: "Spring Security", level: 50 },
         { name: "Java", level: 65 },
         { name: "PostgreSQL", level: 75 },
         { name: "MongoDB", level: 70 },
@@ -27,7 +28,7 @@ const Skills = () => {
         { name: "Data Analytics", level: 40 },
         { name: "Docker", level: 70 },
         { name: "AWS", level: 65 },
-        { name: "Linux", level: 75 },
+        { name: "Linux", level: 45 },
       ]
     }
   ];

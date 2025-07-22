@@ -11,12 +11,12 @@ const Projects = () => {
       live: "#"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "/placeholder.svg",
-      technologies: ["Next.js", "Socket.io", "MongoDB", "Tailwind"],
-      github: "#",
-      live: "#"
+      title: "URL Shortener",
+      description: "A URL shortener website where you can short the long urls and also can store the shortend urls so that you don't need to short your urls everytime.",
+      image: "src/Images/lnki.png",
+      technologies: ["React.js", "Spring Boot", "PostgreSQL", "Tailwind"],
+      github: "https://github.com/duotone-work/URL-shortnerBackend",
+      live: "https://app.lnki.cc"
     },
     {
       title: "Weather Dashboard",
@@ -32,7 +32,7 @@ const Projects = () => {
       image: "src/Images/port.png",
       technologies: ["React", "Tailwind CSS", "Framer Motion"],
       github: "https://github.com/splakash/My-Portfolio",
-      live: "https://my-portfolio-rho-two-59.vercel.app/"
+      live: "https://akash26.vercel.app/"
     },
     {
       title: "Social Media API",

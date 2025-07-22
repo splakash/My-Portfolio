@@ -26,12 +26,12 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-            <a href='https://drive.google.com/file/d/1R_oCNIBuvb1AHpsCcXi3Zbx8HQFWCEA2/view?usp=sharing' className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-cyan-500/25 flex items-center gap-2">
+            <a href='https://drive.google.com/file/d/1JZZ-NXenOpTf2ILbDEJaRKeL2jWTUwT8/view?usp=sharing' className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-cyan-500/25 flex items-center gap-2">
               <Download size={20} />
               Download Resume
             </a>
             <button className="border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-gray-900 px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
-              View My Work
+             <a href='#projects'> View My Work</a>
             </button>
           </div>
 
