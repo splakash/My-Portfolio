@@ -1,12 +1,40 @@
-# React + Vite
+# 💼 Akash Kumar — Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/Framework-React-blue?logo=react)
+![TypeScript](https://img.shields.io/badge/Language-TypeScript-blue?logo=typescript)
+![Hosted on Vercel](https://img.shields.io/badge/Hosted%20On-Vercel-black?logo=vercel)
 
-Currently, two official plugins are available:
+Welcome to the official repository of my **Portfolio Website**. This project showcases my work, experience, and skills as a software developer. Built using **React** and **TypeScript**, and deployed seamlessly on **Vercel**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Site:** [https://akash26.vercel.app](https://akash26.vercel.app)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- ⚛️ Built with React and TypeScript
+- 🎨 Responsive and modern UI
+- 💼 Showcases projects, skills, and experience
+- 📞 Contact section with social links
+- 🌐 Deployed with Vercel
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, TypeScript, HTML5, CSS3
+- **Styling**: Custom CSS / Tailwind CSS (mention if used)
+- **Deployment**: Vercel
+
+---
+
+## 📁 Folder Structure
+
+```bash
+src/
+│
+├── components/     # Reusable components
+├── pages/          # Pages for each section (Home, About, Projects, etc.)
+├── assets/         # Images and static content
+├── styles/         # CSS or Tailwind configuration
+└── App.tsx         # Main App file
