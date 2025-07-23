@@ -8,6 +8,8 @@ Welcome to the official repository of my **Portfolio Website**. This project sho
 
 🔗 **Live Site:** [https://akash26.vercel.app](https://akash26.vercel.app)
 
+<img src="src\Images\port.png">
+
 ---
 
 ## 🚀 Features
@@ -23,7 +25,7 @@ Welcome to the official repository of my **Portfolio Website**. This project sho
 ## 🛠️ Tech Stack
 
 - **Frontend**: React, TypeScript, HTML5, CSS3
-- **Styling**: Custom CSS / Tailwind CSS (mention if used)
+- **Styling**: Custom CSS / Tailwind CSS
 - **Deployment**: Vercel
 
 ---
@@ -38,3 +40,14 @@ src/
 ├── assets/         # Images and static content
 ├── styles/         # CSS or Tailwind configuration
 └── App.tsx         # Main App file
+
+
+
+### ✅ To Do:
+
+- Replace `your-username`, `your-email@example.com`, and `your-profile` with your actual details.
+- If you're using Tailwind CSS or any other library, mention that in the tech stack.
+- Add badges or links for social profiles if you want.
+
+
+```
