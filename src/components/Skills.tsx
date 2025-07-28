@@ -8,7 +8,7 @@ const Skills = () => {
         { name: "Next.js", level: 50 },
         { name: "Tailwind CSS", level: 80 },
         { name: "JavaScript", level: 75 },
-      ]
+      ],
     },
     {
       title: "Backend",
@@ -18,8 +18,7 @@ const Skills = () => {
         { name: "Java", level: 65 },
         { name: "PostgreSQL", level: 75 },
         { name: "MongoDB", level: 70 },
-        
-      ]
+      ],
     },
     {
       title: "Tools & Others",
@@ -29,12 +28,12 @@ const Skills = () => {
         { name: "Docker", level: 70 },
         { name: "AWS", level: 65 },
         { name: "Linux", level: 45 },
-      ]
-    }
+      ],
+    },
   ];
 
   return (
-    <section id="skills" className="py-20 bg-gray-900">
+    <section id="skills" className="py-20 bg-gray-800/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
@@ -47,7 +46,10 @@ const Skills = () => {
 
         <div className="grid md:grid-cols-3 gap-8">
           {skillCategories.map((category, categoryIndex) => (
-            <div key={categoryIndex} className="bg-gray-800/50 p-6 rounded-xl border border-gray-700">
+            <div
+              key={categoryIndex}
+              className="bg-gray-800/50 p-6 rounded-xl border border-gray-700"
+            >
               <h3 className="text-xl font-semibold mb-6 text-center text-cyan-400">
                 {category.title}
               </h3>
@@ -59,7 +61,7 @@ const Skills = () => {
                       <span className="text-cyan-400">{skill.level}%</span>
                     </div>
                     <div className="w-full bg-gray-700 rounded-full h-2">
-                      <div 
+                      <div
                         className="bg-gradient-to-r from-cyan-400 to-blue-500 h-2 rounded-full transition-all duration-1000 ease-out"
                         style={{ width: `${skill.level}%` }}
                       ></div>
