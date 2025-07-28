@@ -1,55 +1,61 @@
-import { Github, ExternalLink, Eye } from 'lucide-react';
+import { Github, ExternalLink, Eye } from "lucide-react";
 
 const Projects = () => {
   const projects = [
     {
       title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Spring-Boot", "PostgreSQL"],
-      github: "#",
-      live: "#"
+      description:
+        "A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication,Jwt Token generation, Oauth, payment processing(Working), and admin dashboard.",
+      image: "/Images/ecom.png",
+      technologies: ["React", "Spring-Boot", "PostgreSQL", "JWT"],
+      github: "https://github.com/splakash/Ecom-React-Spring",
+      live: "#",
     },
     {
       title: "URL Shortener",
-      description: "A URL shortener website where you can short the long urls and also can store the shortend urls so that you don't need to short your urls everytime.",
-      image: "src/Images/lnki.png",
+      description:
+        "A URL shortener website where you can short the long urls and also can store the shortend urls so that you don't need to short your urls everytime.",
+      image: "/Images/lnki.png",
       technologies: ["React.js", "Spring Boot", "PostgreSQL", "Tailwind"],
       github: "https://github.com/duotone-work/URL-shortnerBackend",
-      live: "https://app.lnki.cc"
+      live: "https://app.lnki.cc",
     },
     {
       title: "Weather Dashboard",
-      description: "A responsive weather dashboard that displays current conditions and forecasts. Features location-based weather and interactive charts.",
+      description:
+        "A responsive weather dashboard that displays current conditions and forecasts. Features location-based weather and interactive charts.",
       image: "/placeholder.svg",
       technologies: ["React", "Chart.js", "OpenWeather API", "CSS3"],
       github: "#",
-      live: "#"
+      live: "#",
     },
     {
       title: "Portfolio Website",
-      description: "A modern, responsive portfolio website showcasing projects and skills. Built with performance and accessibility in mind.",
-      image: "src/Images/port.png",
+      description:
+        "A modern, responsive portfolio website showcasing projects and skills. Built with performance and accessibility in mind.",
+      image: "/Images/port.png",
       technologies: ["React", "Tailwind CSS", "Framer Motion"],
       github: "https://github.com/splakash/My-Portfolio",
-      live: "https://akash26.vercel.app/"
+      live: "https://akash26.vercel.app/",
     },
     {
       title: "Social Media API",
-      description: "RESTful API for a social media platform with user management, posts, comments, and real-time notifications.",
+      description:
+        "RESTful API for a social media platform with user management, posts, comments, and real-time notifications.",
       image: "",
       technologies: ["Express.js", "MongoDB", "JWT", "Socket.io"],
       github: "#",
-      live: "#"
+      live: "#",
     },
     {
       title: "Intellirecruit",
-      description: "Data visualization dashboard for machine learning models with interactive charts and real-time predictions.",
-      image: "src/Images/Intellirecruit.jpeg",
-      technologies: ["Python", "Selenium", "Pandas", "TensorFlow","AWS"],
+      description:
+        "Web Scrapped Machine learning based Job Recommendation System.",
+      image: "/Images/Intellirecruit.jpeg",
+      technologies: ["Python", "Selenium", "Pandas", "TensorFlow", "AWS"],
       github: "https://github.com/splakash/Intellirecruit/tree/main",
-      live: "#"
-    }
+      live: "#",
+    },
   ];
 
   return (
@@ -66,10 +72,13 @@ const Projects = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <div key={index} className="group bg-gray-900/50 rounded-xl overflow-hidden border border-gray-700 hover:border-cyan-400/50 transition-all duration-300 hover:transform hover:scale-105">
+            <div
+              key={index}
+              className="group bg-gray-900/50 rounded-xl overflow-hidden border border-gray-700 hover:border-cyan-400/50 transition-all duration-300 hover:transform hover:scale-105"
+            >
               <div className="relative overflow-hidden">
-                <img 
-                  src={project.image} 
+                <img
+                  src={project.image}
                   alt={project.title}
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
                 />
@@ -77,7 +86,7 @@ const Projects = () => {
                   <Eye className="text-cyan-400" size={32} />
                 </div>
               </div>
-              
+
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2 group-hover:text-cyan-400 transition-colors duration-300">
                   {project.title}
@@ -85,10 +94,10 @@ const Projects = () => {
                 <p className="text-gray-400 mb-4 text-sm leading-relaxed">
                   {project.description}
                 </p>
-                
+
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech, techIndex) => (
-                    <span 
+                    <span
                       key={techIndex}
                       className="px-3 py-1 text-xs bg-cyan-400/10 text-cyan-400 rounded-full border border-cyan-400/20"
                     >
@@ -96,16 +105,16 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                
+
                 <div className="flex gap-4">
-                  <a 
+                  <a
                     href={project.github}
                     className="flex items-center gap-2 text-gray-400 hover:text-cyan-400 transition-colors duration-300"
                   >
                     <Github size={16} />
                     <span className="text-sm">Code</span>
                   </a>
-                  <a 
+                  <a
                     href={project.live}
                     className="flex items-center gap-2 text-gray-400 hover:text-cyan-400 transition-colors duration-300"
                   >
